@@ -1,15 +1,15 @@
-# 💗 Presente para Yasmin
+# 💗 Site para Yasmin
 
-Um site especial criado com amor para minha amiga Yasmin enquanto estudava filosofia! 🎓✨
+Um site especial criado enquanto estudava filosofia! 🎓✨
 
-## 🎯 O que é isso?
+## 🎯 O que é?
 
-Um site personalizado celebrando Yasmin e suas coisas favoritas:
+Um site personalizado mostrando os gostos da Yasmin:
 - 🐕 **Animal**: Cachorro
 - 💗 **Cor**: Rosa
 - 📺 **Séries**: The Vampire Diaries, Outer Banks, Percy Jackson
 
-## 🚀 Como rodar
+## 🚀 Como rodar localmente
 
 ```bash
 cd my-react-app
@@ -22,15 +22,15 @@ Depois abra `http://localhost:5173` no seu navegador!
 ## 🛠️ Tech Stack
 
 - **React** + **Vite** - Rápido e moderno
-- **CSS personalizado** - Design rosa.
+- **CSS puro** - Design limpo em rosa
 
-## 📝 Notas
+## 📦 Deploy Vercel
 
-Feito com:
-- ☕ Muito café
-- 💭 Reflexões sobre filosofia
-- 💖 Feito com carinho por ShiroiDev
+O projeto está configurado para deploy automático no Vercel. A estrutura usa um arquivo `vercel.json` que define:
+- Build command: `npm install && npm run build`
+- Output directory: `dist`
 
----
+## 📝 Detalhes
 
-*Criado em fevereiro de 2026*
+Criado em February 14, 2026
+Feito por Matheus Gustavo
