@@ -23,7 +23,6 @@ body {
   max-width: 1456px;
   aspect-ratio: 1456 / 798;
   background: linear-gradient(135deg, #ffd6e8 0%, #fff5fb 100%);
-  background-image: url('assets/wall.jpg');
   background-size: cover;
   background-position: center;
   border-radius: 16px;

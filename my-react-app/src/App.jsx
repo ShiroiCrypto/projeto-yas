@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import wallImage from './assets/wall.jpg'
 import './App.css'
 
 function App() {
@@ -24,7 +25,10 @@ function App() {
 
   return (
     <div className="container">
-      <div className="wallpaper-frame">
+      <div 
+        className="wallpaper-frame"
+        style={{ backgroundImage: `url(${wallImage})` }}
+      >
         <div className="content">
           <header className="header">
             <h1 className="title">Yasmin</h1>
