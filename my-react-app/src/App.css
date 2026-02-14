@@ -1,0 +1,255 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #ffd6e8 0%, #fff5fb 50%, #ffe0ec 100%);
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 3rem;
+  animation: slideDown 0.8s ease-out;
+}
+
+.title {
+  font-size: 3.5rem;
+  color: #d946a6;
+  margin-bottom: 0.5rem;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.subtitle {
+  font-size: 1.2rem;
+  color: #c2185b;
+  font-style: italic;
+}
+
+.about {
+  margin-bottom: 3rem;
+  width: 100%;
+  max-width: 600px;
+}
+
+.about-card {
+  background: white;
+  padding: 2rem;
+  border-radius: 15px;
+  box-shadow: 0 10px 30px rgba(217, 70, 166, 0.2);
+  text-align: center;
+  border: 3px solid #ffc0e0;
+}
+
+.about-card h2 {
+  color: #d946a6;
+  margin-bottom: 1rem;
+  font-size: 1.8rem;
+}
+
+.about-card p {
+  color: #666;
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+.interests {
+  display: flex;
+  gap: 2rem;
+  margin-bottom: 3rem;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+}
+
+.interest-item {
+  flex: 1;
+  min-width: 250px;
+  max-width: 280px;
+}
+
+.interest-card {
+  background: white;
+  padding: 2rem;
+  border-radius: 15px;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+  border: 3px solid;
+}
+
+.interest-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 15px 40px rgba(217, 70, 166, 0.3);
+}
+
+.interest-card.dog {
+  border-color: #ff9f43;
+  box-shadow: 0 10px 30px rgba(255, 159, 67, 0.2);
+}
+
+.interest-card.color {
+  border-color: #ff69b4;
+  box-shadow: 0 10px 30px rgba(255, 105, 180, 0.2);
+}
+
+.interest-card h3 {
+  font-size: 1.6rem;
+  margin-bottom: 0.5rem;
+  color: #d946a6;
+}
+
+.interest-card p {
+  font-size: 1.3rem;
+  color: #666;
+  font-weight: bold;
+}
+
+.description {
+  font-size: 0.95rem !important;
+  font-weight: normal !important;
+  color: #999 !important;
+  margin-top: 0.5rem;
+}
+
+.series-section {
+  width: 100%;
+  max-width: 800px;
+  background: white;
+  padding: 2.5rem;
+  border-radius: 15px;
+  box-shadow: 0 10px 30px rgba(217, 70, 166, 0.2);
+  border: 3px solid #ffc0e0;
+  margin-bottom: 2rem;
+}
+
+.series-section h2 {
+  color: #d946a6;
+  text-align: center;
+  margin-bottom: 2rem;
+  font-size: 2rem;
+}
+
+.series-carousel {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  margin-bottom: 2rem;
+  flex-wrap: wrap;
+}
+
+.series-card {
+  background: #fff5fb;
+  border: 2px solid #ffc0e0;
+  padding: 1.5rem;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  text-align: center;
+  min-width: 150px;
+}
+
+.series-card:hover {
+  transform: scale(1.05);
+  border-color: #d946a6;
+}
+
+.series-card.active {
+  background: linear-gradient(135deg, #ffc0e0, #ffb3d9);
+  border-color: #d946a6;
+  transform: scale(1.08);
+  box-shadow: 0 8px 20px rgba(217, 70, 166, 0.3);
+}
+
+.series-emoji {
+  font-size: 2.5rem;
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+.series-card p {
+  color: #666;
+  font-weight: bold;
+  font-size: 0.95rem;
+}
+
+.series-details {
+  background: linear-gradient(135deg, #ffd6e8 0%, #fff5fb 100%);
+  padding: 1.5rem;
+  border-radius: 10px;
+  text-align: center;
+  border-left: 4px solid #d946a6;
+}
+
+.series-name {
+  font-size: 1.5rem;
+  color: #d946a6;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.series-desc {
+  color: #666;
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+.footer {
+  text-align: center;
+  color: #d946a6;
+  font-weight: bold;
+  margin-top: 2rem;
+}
+
+.footer p {
+  margin: 0.5rem 0;
+  font-size: 1rem;
+}
+
+@keyframes slideDown {
+  from {
+    opacity: 0;
+    transform: translateY(-30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    padding: 1rem;
+  }
+
+  .title {
+    font-size: 2.2rem;
+  }
+
+  .subtitle {
+    font-size: 1rem;
+  }
+
+  .interests {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .series-carousel {
+    flex-direction: column;
+  }
+
+  .series-card {
+    width: 100%;
+  }
+}
