@@ -1,4 +1,4 @@
-# 💗 Site para Yasmin
+# Site para Yasmin
 
 Um site especial criado enquanto estudava filosofia! 🎓✨
 
