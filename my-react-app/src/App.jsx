@@ -71,7 +71,9 @@ function App() {
           </section>
 
           <footer className="footer">
-            <p>Feito com carinho 💖</p>
+            <p>Feito com carinho enquanto eu estudava</p>
+            <p className="footer-name">Yasmin Sophie</p>
+            <p className="footer-by">Feito por Matheus Gustavo</p>
           </footer>
         </div>
       </div>

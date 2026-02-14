@@ -22,14 +22,14 @@ Depois abra `http://localhost:5173` no seu navegador!
 ## 🛠️ Tech Stack
 
 - **React** + **Vite** - Rápido e moderno
-- **CSS personalizado** - Design rosa com muito amor ❤️
+- **CSS personalizado** - Design rosa.
 
 ## 📝 Notas
 
 Feito com:
 - ☕ Muito café
 - 💭 Reflexões sobre filosofia
-- 💖 Muito carinho pela Yasmin
+- 💖 Feito com carinho por ShiroiDev
 
 ---
 
