@@ -3,7 +3,7 @@
   "outputDirectory": "my-react-app/dist",
   "routes": [
     {
-      "src": "/(.*)",
+      "src": "/my-react-app(.*)",
       "dest": "index.html"
     }
   ]
